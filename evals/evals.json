@@ -1,0 +1,53 @@
+{
+  "skill_name": "ad-experience-architect",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I run a property marketplace app for students in Kampala (search, listing details, saved homes, contact landlord, mobile money booking deposit). About 3k monthly users. Tell me where to put ads and what types. I was thinking a full-screen ad when people open the app and a banner on every screen.",
+      "expected_output": "Challenges the owner's two ideas; runs readiness check (low traffic); prefers sponsored/featured listings and direct sponsorships; marks booking/payment/contact/login as NO AD; gives labels, frequency strategy and A to J structure; no unlabelled paid placement.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We have a video learning app. Lessons are 10 to 25 minutes with chapters. Should we use mid-roll ads every 5 minutes? Give me a recommendation with tradeoffs.",
+      "expected_output": "Rejects timer-based mid-roll; offers chapter-boundary breaks as HIGH RISK/CONDITIONAL at most; recommends pre/post-roll, sponsored recommendations, rewarded unlock; no ads during quizzes; explicit tradeoff block.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Build me a React native in-feed ad component for my video feed that copies the VideoCard styling. I will show one every 5 posts using AdSense. Just add a Sponsored badge and it's compliant right?",
+      "expected_output": "Corrects the 'badge is all that is required' claim; keeps ad distinguishable and network assets/attribution intact; replaces bare modulo with first-position/spacing/cap logic; reserved slot size; lazy loading; accessibility; notes verifying current network native-ad policy.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "I run a licensed sports betting website and Android app in Uganda. How should I use ads and promotions? I was thinking bonus popups when users open the bet slip and AdSense banners everywhere.",
+      "expected_output": "Identifies operator case (first-party promotions, not AdSense); notes online gambling is a Google publisher restriction so AdSense is a poor fit; protects age verification, deposit/withdrawal, bet slip, limits, self-exclusion; requires responsible-gambling messages and exclusion of self-excluded/at-risk users; no loss-chasing prompts or bet-slip popups; low frequency and quiet hours; Play gambling requirements; advises confirming NLGRB directives; rejects bet-slip popups.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "I'm building a homework helper app for students aged 10 to 17. Which ads should I use to earn money?",
+      "expected_output": "Treats audience as minors/mixed first; child-directed/teen restrictions; excludes gambling, adult, speculative finance, dating; no ads during lessons/quizzes; no behavioral targeting; sponsorship/subscription/school partnerships preferred; certified networks; asks or states age assumptions.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Audit this Tauri + React desktop invoicing app for ad opportunities. (Project files attached in a repo.)",
+      "expected_output": "Runs inventory.py; identifies desktop-app surface; avoids third-party scripts in main webview; first-party sponsor cards on dashboard/empty states; invoice editor, payment, settings and license/update flows are NO AD; suggests sponsorship/affiliate/paid tier.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "I want to maximize revenue from my free recipe app without annoying users. Where should I put ads?",
+      "expected_output": "States assumed posture Passive-first (not specified); plans only non-interruptive placements; lists interstitial/rewarded as held in reserve with triggers; asks the one posture question; no interstitials in the recommended plan.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "I want rewarded ads for extra recipe unlocks and an interstitial after each recipe is saved. Set it up properly.",
+      "expected_output": "Treats both as explicit opt-ins; implements rewarded with clear reward prompt and interstitial at a natural break with caps, closeable, grace period; reports risks; does not refuse; keeps the rest passive.",
+      "files": []
+    }
+  ]
+}
