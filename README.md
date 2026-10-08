@@ -215,6 +215,4 @@ Contributions are welcome. Before opening a PR:
 
 ---
 
-## License
 
-No license has been applied yet. Add one (MIT and Apache-2.0 are common choices for skills) before accepting external contributions.
